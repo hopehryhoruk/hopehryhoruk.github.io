@@ -1,19 +1,34 @@
 body{
     background-color: #f8e9f8;
     }
+td, th{
+    border: 2px solid black;
+}
+.tab1{
+    height: 50px;
+}
 .name{
     background-color: black;
     color: white;
+    border: 0;
+    height: 50px;
+}
+.topborder1{
+    border-top-width: 0px;
+}
+.topborder2{
+    border-bottom-width: 0px;
+ 
 }
 .pidname{
     background-color: #f8e9f8;
 }
 .lap{
     float: right;
-    width: 100px;
+    width: 80px;
 }
 table{
-    border: 0;
+    border-spacing: 0px 0px;
     width: 100%;
 }
 .pg1{
@@ -23,7 +38,6 @@ table{
 }
 .price{
     color: red;
-    font-weight: bold;
     font-size: 25px
 }
 a {display:block; 
@@ -31,12 +45,12 @@ width:195px;
 color:black; 
 text-decoration:none; 
 padding:10px 5px 10px 40px;
-font-size: 15px
-}
-.menu{
-    font-weight: bold;
-    font-size: 25px
+margin: auto;
+font-size: 20px
 }
 .wh{
     background-color: white;
+}
+.without{
+    border: 0
 }
