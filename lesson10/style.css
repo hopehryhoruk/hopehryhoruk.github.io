@@ -1,0 +1,7 @@
+.container-fluid{
+    height: 100px
+}
+.row{
+    border: solid 1px;
+    margin: 16px
+}

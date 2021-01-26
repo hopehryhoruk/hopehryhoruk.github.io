@@ -34,12 +34,37 @@ nav li {
 .data ul {
     margin-top: 0px;
 }
-
+nav .fa-bra{
+    display:none;
+}
 @media (max-width: 740px){
     .container{
         display: block;
     }
     .photo{
         max-width: 100%
+    }
+}
+@media (max-width: 600px){
+    nav{
+        position:absolute;
+        top:0px;
+        left: 5px;
+    }
+    nav{
+display: block
+    }
+    nav ul{
+display: none;
+    }
+    nav:hover ul{
+        display:block;
+        background-color: rgb(63, 47, 24);
+        margin-top: :-10px;
+        padding: 20px;
+        text-align: left;
+    }
+    nav li{
+display: block;
     }
 }
