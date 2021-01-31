@@ -1,0 +1,64 @@
+.container{
+    border: solid 3px  chartreuse;
+    margin: 5px;
+}
+.box{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height:100px;
+    background-color: chocolate;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.box:hover{
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.change-fond-delay{
+    border: solid 1px;
+    position:relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 14px
+}
+.change-fond-delay:hover{
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 36px;
+}
+.rotate-flag{
+color: rgb(178, 28, 28);
+transform: rotate(90deg);
+transform-origin: bottom right;
+}
+.skew-flag{
+    color: darkslateblue;
+    transform: skew(20deg) translateX(150px);
+    transform-origin: bottom left;
+
+}
+
+.slide{
+    animation-duration: 5s ;
+    animation-name: slidein;
+
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100px
+    }
+    75%{
+        font-size: 300%;
+    }
+}

@@ -1,0 +1,24 @@
+/* MAKET SPECIFIC STYLES */
+
+/* BODY */
+
+body {}
+
+#lay_body p, #lay_body td, #lay_body div, #lay_body table, #lay_body select, #lay_body textarea {
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+/* END BODY */
+
+/* BLOCK 1 */
+
+#lay_f1 {}
+
+/* END BLOCK 1 */
+
+/* BLOCK 2 */
+
+#lay_f2 {}
+
+/* END BLOCK 2 */
