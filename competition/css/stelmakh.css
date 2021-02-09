@@ -1,0 +1,93 @@
+.container {
+  max-width: 1000%;
+  
+  height: 20px;
+}
+body{
+  width: 100%;
+}
+.dropdown-menu{
+  width: 120px;
+}
+.right{
+  float: right;
+}
+.site-header {
+  background-color: black;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.silka {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+  display: inline-block;
+  float: right;
+  margin: 7px;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+nav{
+  height: 30px;
+
+}
+.spisok{
+  position: relative;
+  display: inline-block;
+  float: right;
+  }
+.spisokth{
+background-color: black;
+margin: 7px;
+font-size: 20px;
+margin-bottom: 0;
+text-decoration: none;
+padding-bottom: 10px;
+}
+.spisok-content {
+display: none;
+position: absolute;
+background-color: rgb(50, 50, 50);
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 0;
+}
+/* Ссылки внутри выпадающего */
+.spisok-content a {
+color: white;
+padding:16px;
+text-decoration: none;
+display: block;
+}
+
+/* Изменить цвет выпадающих ссылок при наведении */
+.spisok-content a:hover {background-color: #696767}
+
+/* Показать выпадающее меню при наведении */
+.spisok:hover .spisok-content {
+display: block;
+}
+.rid{
+  height: 70px;
+}
+.verx{
+  width: 100%;
+  margin-top: 20px;
+}
+.logo{
+  width: 270px;
+  height: 60px;
+}
+.bio{
+  display: inline-block;
+top: 20px;
+}
+footer{
+  height: 90px;
+  background-color: black;
+  position:initial;
+}
