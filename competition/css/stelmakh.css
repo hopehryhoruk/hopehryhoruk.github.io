@@ -12,10 +12,15 @@ body{
 .right{
   float: right;
 }
+main{
+  font-family: Times New Roman;
+  font-size: 15px;
+}
 .site-header {
   background-color: black;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+  font-family: Times New Roman;
 }
 .silka {
   color: #8e8e8e;
@@ -23,7 +28,7 @@ body{
   display: inline-block;
   float: right;
   margin: 7px;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 0;
   text-decoration: none;
 }
@@ -32,8 +37,7 @@ body{
   text-decoration: none;
 }
 nav{
-  height: 30px;
-
+  height: 20px;
 }
 .spisok{
   position: relative;
@@ -43,7 +47,8 @@ nav{
 .spisokth{
 background-color: black;
 margin: 7px;
-font-size: 20px;
+margin-bottom: 2px;
+font-size: 25px;
 margin-bottom: 0;
 text-decoration: none;
 padding-bottom: 10px;
