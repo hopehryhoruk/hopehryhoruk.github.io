@@ -1,10 +1,12 @@
 .container {
-  max-width: 1000%;
-  
+  max-width: 999%;
   height: 20px;
 }
+.fgh{
+  background-color: white;
+}
 body{
-  width: 100%;
+  width: 99%;
 }
 .dropdown-menu{
   width: 120px;
@@ -14,7 +16,8 @@ body{
 }
 main{
   font-family: Times New Roman;
-  font-size: 15px;
+  font-size: 19px;
+  color: black;
 }
 .site-header {
   background-color: black;
@@ -22,6 +25,7 @@ main{
   backdrop-filter: saturate(180%) blur(20px);
   font-family: Times New Roman;
 }
+
 .silka {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
@@ -30,6 +34,12 @@ main{
   margin: 7px;
   font-size: 25px;
   margin-bottom: 0;
+  text-decoration: none;
+}
+.silk {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+
   text-decoration: none;
 }
 .site-header a:hover {
@@ -81,18 +91,21 @@ display: block;
 }
 .verx{
   width: 100%;
-  margin-top: 20px;
 }
 .logo{
   width: 270px;
-  height: 60px;
+  height: 30px;
 }
 .bio{
   display: inline-block;
 top: 20px;
+text-align:justify;
 }
 footer{
-  height: 90px;
+  height: 100px;
   background-color: black;
   position:initial;
+  font-family: Times New Roman;
+
+  color: black;
 }
