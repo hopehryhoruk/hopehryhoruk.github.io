@@ -2,11 +2,9 @@
   max-width: 999%;
   height: 20px;
 }
-.fgh{
-  background-color: white;
-}
+
 body{
-  width: 99%;
+  width: 100%;
 }
 .dropdown-menu{
   width: 120px;
@@ -19,50 +17,53 @@ main{
   font-size: 19px;
   color: black;
 }
-.site-header {
-  background-color: black;
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-  font-family: Times New Roman;
+.container-fluid{
+  height: 53px;
 }
-
+.me-auto{
+  background-color: black;
+ }
+.photo1{
+  height: 200px;
+}
+.photo2{
+  height: 330px;
+}
 .silka {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
   display: inline-block;
-  float: right;
-  margin: 7px;
-  font-size: 25px;
+  margin: 4px;
+  font-size: 17px;
   margin-bottom: 0;
   text-decoration: none;
 }
 .silk {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
-
+  margin-bottom: 25px;
   text-decoration: none;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
 }
-nav{
-  height: 20px;
+.navbar{
+  height: 53px;
+  background-color: black;
+  font-family: Times New Roman;
 }
 .spisok{
   position: relative;
   display: inline-block;
   float: right;
   }
-.spisokth{
-background-color: black;
-margin: 7px;
-margin-bottom: 2px;
-font-size: 25px;
-margin-bottom: 0;
-text-decoration: none;
-padding-bottom: 10px;
-}
+  @media (max-width: 700px) {
+    .logo {
+      display: none;
+    }
+  }
 .spisok-content {
 display: none;
 position: absolute;
@@ -71,7 +72,7 @@ min-width: 200px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 0;
 }
-/* Ссылки внутри выпадающего */
+
 .spisok-content a {
 color: white;
 padding:16px;
@@ -79,10 +80,7 @@ text-decoration: none;
 display: block;
 }
 
-/* Изменить цвет выпадающих ссылок при наведении */
 .spisok-content a:hover {background-color: #696767}
-
-/* Показать выпадающее меню при наведении */
 .spisok:hover .spisok-content {
 display: block;
 }
