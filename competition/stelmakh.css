@@ -34,6 +34,7 @@ main{
   transition: color .15s ease-in-out;
   display: inline-block;
   margin: 4px;
+  margin-right: 10px;
   font-size: 20px;
   margin-bottom: 0;
   text-decoration: none;
@@ -59,10 +60,22 @@ main{
   display: inline-block;
   float: right;
   }
-  @media (max-width: 700px) {
+  @media  (max-width: 700px) {
     .logo {
       display: none;
     }
+  }
+  @media  (max-width: 1200px) {
+    .container-fluid {
+     width: auto;
+     margin-left:0px;
+    }
+    .verx{
+      display: none;  }
+      .verx2{
+      background-image: url(img/20.png);
+      height: 400px;
+      }
   }
 .spisok-content {
 display: none;
@@ -72,14 +85,6 @@ min-width: 200px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 0;
 }
-
-.spisok-content a {
-color: white;
-padding:16px;
-text-decoration: none;
-display: block;
-}
-
 .spisok-content a:hover {background-color: #696767}
 .spisok:hover .spisok-content {
 display: block;
