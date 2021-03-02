@@ -64,6 +64,11 @@ main{
     .logo {
       display: none;
     }
+    .verx2{
+      background-image: url(img/20.png);
+      height: 1250px;
+      }
+      
   }
   @media  (max-width: 1200px) {
     .container-fluid {
@@ -72,9 +77,8 @@ main{
     }
     .verx{
       display: none;  }
-      .verx2{
-      background-image: url(img/20.png);
-      height: 400px;
+      .propusk{
+        height: 60px;
       }
   }
 .spisok-content {
