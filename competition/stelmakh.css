@@ -60,7 +60,7 @@ main{
   display: inline-block;
   float: right;
   }
-  @media  (max-width: 700px) {
+  @media  (max-width: 750px) {
     .logo {
       display: none;
     }
