@@ -26,7 +26,7 @@ background-color: black;
 }
 .photo1{
 height: 200px;
-}1
+}
 .photo2{
 height: 330px;
 }
@@ -92,14 +92,13 @@ float: right;
     background-color: black;
     position:initial;
     font-family: Times New Roman;
-  
     color: black;
   }
 @media  (max-width: 1090px) {
   .verx2{
     background-image: url(img/20.png);
     height: 1780px;
-    width: 1082px;
+    width: 1090px;
     margin-top: 20px;
     }
     .navbar{
@@ -114,8 +113,8 @@ float: right;
     .navbar-nav{
       width: 430px;
     }
-    .container{
-      max-width: 1072px;
+    html{
+      max-width: 1090px;
     }
 }
 @media  (max-width: 1200px) {
