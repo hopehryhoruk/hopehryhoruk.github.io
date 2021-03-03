@@ -1,118 +1,127 @@
+html { overflow-x: hidden; }
 .container {
-  max-width: 999%;
-  height: 20px;
+max-width: 1000%;
+height: 20px;
 }
 
 body{
-  width: 100%;
+width: 102%;
 }
 .dropdown-menu{
-  width: 120px;
+width: 120px;
 }
 .right{
-  float: right;
+float: right;
 }
 main{
-  font-family: Times New Roman;
-  font-size: 19px;
-  color: black;
+font-family: Times New Roman;
+font-size: 19px;
+color: black;
 }
 .container-fluid{
-  height: 53px;
+height: 53px;
 }
 .me-auto{
-  background-color: black;
- }
-.photo1{
-  height: 200px;
+background-color: black;
 }
+.photo1{
+height: 200px;
+}1
 .photo2{
-  height: 330px;
+height: 330px;
 }
 .silka {
-  color: #8e8e8e;
-  transition: color .15s ease-in-out;
-  display: inline-block;
-  margin: 4px;
-  margin-right: 10px;
-  font-size: 20px;
-  margin-bottom: 0;
-  text-decoration: none;
+color: #8e8e8e;
+transition: color .15s ease-in-out;
+display: inline-block;
+margin: 4px;
+margin-right: 10px;
+font-size: 20px;
+margin-bottom: 0;
+text-decoration: none;
 }
 .silk {
-  color: #8e8e8e;
-  transition: color .15s ease-in-out;
-  margin-bottom: 25px;
-  text-decoration: none;
+color: #8e8e8e;
+transition: color .15s ease-in-out;
+margin-bottom: 25px;
+text-decoration: none;
 }
 
 .site-header a:hover {
-  color: #fff;
-  text-decoration: none;
+color: #fff;
+text-decoration: none;
 }
 .navbar{
-  height: 53px;
-  background-color: black;
-  font-family: Times New Roman;
+height: 53px;
+background-color: black;
+font-family: Times New Roman;
 }
 .spisok{
-  position: relative;
-  display: inline-block;
-  float: right;
-  }
-  @media  (max-width: 1090px) {
-    .logo {
-      display: none;
-    }
-    .verx2{
-      background-image: url(img/20.png);
-      height: 1875px;
-      }
-      
-  }
-  @media  (max-width: 1200px) {
-    .container-fluid {
-     width: auto;
-     margin-left:0px;
-    }
-    .verx{
-      display: none;  }
-      .propusk{
-        height: 60px;
-      }
-  }
+position: relative;
+display: inline-block;
+float: right;
+}
 .spisok-content {
-display: none;
-position: absolute;
-background-color: rgb(50, 50, 50);
-min-width: 200px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 0;
+  display: none;
+  position: absolute;
+  background-color: rgb(50, 50, 50);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+  }
+  .spisok-content a:hover {background-color: #696767}
+  .spisok:hover .spisok-content {
+  display: block;
+  }
+  .rid{
+    height: 70px;
+  }
+  .verx{
+    width: 100%;
+  }
+  .logo{
+    width: 350px;
+  }
+  .bio{
+    display: inline-block;
+  top: 20px;
+  text-align:justify;
+  }
+  footer{
+    height: 100px;
+    background-color: black;
+    position:initial;
+    font-family: Times New Roman;
+  
+    color: black;
+  }
+@media  (max-width: 1090px) {
+  .verx2{
+    background-image: url(img/20.png);
+    height: 1780px;
+    margin-top: 20px;
+    }
+    .navbar{
+      height: 83px;
+    }
+    .logo{
+      width: 500px;
+    }
+    .silka{
+      font-size: 53px;
+    }
+    .navbar-nav{
+      width: 430px;
+    }
 }
-.spisok-content a:hover {background-color: #696767}
-.spisok:hover .spisok-content {
-display: block;
-}
-.rid{
-  height: 70px;
-}
-.verx{
-  width: 100%;
-}
-.logo{
-  width: 270px;
-  height: 30px;
-}
-.bio{
-  display: inline-block;
-top: 20px;
-text-align:justify;
-}
-footer{
-  height: 100px;
-  background-color: black;
-  position:initial;
-  font-family: Times New Roman;
-
-  color: black;
+@media  (max-width: 1200px) {
+  .container-fluid {
+    width: auto;
+    margin-left:0px;
+  }
+  .verx{
+    display: none;  }
+    .propusk{
+      height: 60px;
+    }
 }
