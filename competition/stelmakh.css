@@ -94,37 +94,3 @@ float: right;
     font-family: Times New Roman;
     color: black;
   }
-@media  (max-width: 1090px) {
-  .verx2{
-    background-image: url(img/20.png);
-    height: 1780px;
-    width: 1090px;
-    margin-top: 20px;
-    }
-    .navbar{
-      height: 83px;
-    }
-    .logo{
-      width: 500px;
-    }
-    .silka{
-      font-size: 53px;
-    }
-    .navbar-nav{
-      width: 430px;
-    }
-    html{
-      max-width: 1090px;
-    }
-}
-@media  (max-width: 1200px) {
-  .container-fluid {
-    width: auto;
-    margin-left:0px;
-  }
-  .verx{
-    display: none;  }
-    .propusk{
-      height: 60px;
-    }
-}
