@@ -79,9 +79,6 @@ height: 70px;
 .verx{
 width: 99%;
 }
-.verx2{
-  display: none;
-}
 .logo{
 width: 350px;
 }
@@ -97,31 +94,82 @@ position:initial;
 font-family: Times New Roman;
 color: black;
 }
+.video{
+  float: right; 
+  margin: 15px;
+   margin-top: 0; 
+   width: 400px;
+   height: 300px;
+}
+.biophoto{
+  margin: 15px; 
+  margin-top: 0;
+   height: 300px
+}
+.btn2{
+  display: none;
+}
 @media only screen and (max-width: 1235px){
   .silka {
     margin: 4px;
     margin-right: 8px;
-    font-size: 18px;
+    font-size: 25px;
     }
 }
 @media only screen and (max-width: 992px){
-  .verx{
-     display: none;
-  }
-  .verx2{
-    display: block;
-    width: 105%;
-    height: 100%
-  }
   .silka {
     margin-right: 10px;
     margin-left: 10px;
-    font-size: 45px;
+    font-size: 40px !important;
     }
+  .verx{
+    width: 105%;
+  }
   .concurs{
     display: none;
   }
   .spisok-content{
     display: block;
+  }
+  main{
+    font-size: 40px;
+    }
+    .btn1{
+      display: none !important;
+    }
+    .btn2{
+      display: inline-block;
+    }
+  h1{
+    font-size: 65px !important;
+  }
+  h2{
+    font-size: 55px !important;
+  }
+  h3{
+    font-size: 50px !important;
+  }
+  h5{
+    font-size: 45px !important;
+  }
+  .video{
+    float: none;
+    width: 100%;
+    height: 40%;
+  }
+  .biophoto{
+     height: 500px
+  }
+  .card-group {
+    display: block !important;
+  }
+  .card-img-top{
+    height: 500px !important;
+  }
+  .btn-group-sm>.btn, .btn-sm {
+    font-size: 30px !important;
+  }
+  .accordion-body{
+    font-size: 35px;
   }
 }
