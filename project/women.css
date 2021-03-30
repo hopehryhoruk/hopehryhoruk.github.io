@@ -1,13 +1,13 @@
 html { overflow-x: hidden; }
 body{
-background-color: #008080;
+background-color: #F38C58;
 }
 .main{
 width: 75%;
-height: 735px;
+height: 45rem;
 margin-left: auto;
 margin-right: auto;
-background-color: #20B2AA;
+background-color: #FF9966;
 }
 .title{
 font-family: serif;
@@ -16,7 +16,7 @@ font-size: 55px;
 margin-top: 10px;
 }
 a{
-    color: #008080;
+    color: #FF732D;
     font-size: 20px;
 }
 h2{
@@ -30,8 +30,8 @@ input[type="checkbox"] {
     display: none;
     }
 .galleryimg{
-width: 220px;
-height: 300px;
+width: 14rem;
+height: 19rem;
 }
 .grid {
 display: flex;
@@ -42,7 +42,7 @@ text-align: center;
 width: 80%;
 position: absolute;
 left:19%;
-top:12%
+top:5rem
 }
 .grid .grid-item {
 width: 25%;
@@ -61,7 +61,7 @@ box-shadow:0 0 10px rgb(33, 94, 84);
 }
 .lightbox{
 width: 60%;
-background-color: #20B2AA;
+background-color: #FF9966;
 position: absolute;
 left:20%;
 top:12%;
@@ -76,16 +76,16 @@ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 position: fixed;
 width: 380px;
 height: 560px;
-top: 50%;
-left: 24%;
+top: 19.5rem;
+left: 14rem;
 -webkit-transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 }
 .galtext{
 position: fixed;
-top: 48%;
-left: 70%;
+top: 19rem;
+left: 40rem;
 width: 400px;
 transform: translate(-50%, -50%);
 text-align: justify;
