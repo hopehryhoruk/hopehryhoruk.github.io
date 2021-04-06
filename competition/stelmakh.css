@@ -40,6 +40,16 @@ font-size: 20px;
 margin-bottom: 0;
 text-decoration: none;
 }
+.sources {
+  color:black;
+  transition: color .15s ease-in-out;
+  display: inline-block;
+  margin: 4px;
+  margin-right: 10px;
+  font-size: 30px;
+  margin-bottom: 0;
+  text-decoration: none;
+  }
 .silk {
 color: #8e8e8e;
 transition: color .15s ease-in-out;
@@ -94,6 +104,7 @@ width: 105%;
 position:initial;
 font-family: Times New Roman;
 color: black;
+bottom: 0 !important;
 }
 .video{
   float: right; 
@@ -141,9 +152,12 @@ color: black;
     display: block;
   }
   main{
-    font-size: 22px;
+    font-size: 25px;
     }
+table{
+  font-size: 22px;
 
+}
   h1{
     font-size: 40px !important;
   }
@@ -178,5 +192,10 @@ color: black;
   }
   footer{
     height: 140px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .logo{
+    display: none;
   }
 }
