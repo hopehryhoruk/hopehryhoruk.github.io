@@ -193,8 +193,6 @@ table{
   footer{
     height: 140px;
   }
-}
-@media only screen and (max-width: 700px){
   .logo{
     display: none;
   }
